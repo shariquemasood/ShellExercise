@@ -8,5 +8,5 @@
 #fi
 
 find ~/ShellExercise/* -type d -print0 | xargs -0 mv -t ~/directory
-find ~/ShellExercise/ -type f -print0 | xargs =0 mv -t ~/files
+find ~/ShellExercise/* -type f -print0 | xargs -0 mv -t ~/files
 
